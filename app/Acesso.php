@@ -16,7 +16,8 @@ class Acesso extends Model
     protected $primaryKey = 'id';
 
     protected $fillable = [
-        'nome', 'descricao',
+        'nome', 
+        'descricao',
     ];
     public $timestamps = false;
 }
